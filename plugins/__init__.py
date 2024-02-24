@@ -1,5 +1,3 @@
-# (©)Codexbotz
-# @iryme
 
 
 from aiohttp import web
