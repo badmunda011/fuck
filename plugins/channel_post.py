@@ -1,5 +1,3 @@
-# (©)Codexbotz
-
 import asyncio
 
 from pyrogram import Client, filters
@@ -40,7 +38,7 @@ async def channel_post(client: Client, message: Message):
         [
             [
                 InlineKeyboardButton(
-                    "🔁 Share URL", url=f"https://telegram.me/share/url?url={link}"
+                    "☄️ sʜᴀʀᴇ ᴜʀʟ🌪️", url=f"https://telegram.me/share/url?url={link}"
                 )
             ]
         ]
@@ -69,7 +67,7 @@ async def new_post(client: Client, message: Message):
         [
             [
                 InlineKeyboardButton(
-                    "🔁 Share URL", url=f"https://telegram.me/share/url?url={link}"
+                    "☄️ sʜᴀʀᴇ ᴜʀʟ🌪️", url=f"https://telegram.me/share/url?url={link}"
                 )
             ]
         ]
@@ -79,3 +77,4 @@ async def new_post(client: Client, message: Message):
     except Exception as e:
         print(e)
         pass
+        
