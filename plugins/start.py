@@ -1,6 +1,3 @@
-# (©)CodeXBotz
-
-
 import asyncio
 import os
 
@@ -111,8 +108,8 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("😊 About Me", callback_data="about"),
-                    InlineKeyboardButton("🔒 Close", callback_data="close"),
+                    InlineKeyboardButton("💫 ᴀʙᴏᴜᴛ ᴍᴇ 💫", callback_data="about"),
+                    InlineKeyboardButton("💥 ᴄʟᴏsᴇ 💥", callback_data="close"),
                 ]
             ]
         )
@@ -227,3 +224,4 @@ Unsuccessful: <code>{unsuccessful}</code></b>"""
         msg = await message.reply(REPLY_ERROR)
         await asyncio.sleep(8)
         await msg.delete()
+        
